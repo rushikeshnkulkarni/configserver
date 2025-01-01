@@ -1,6 +1,4 @@
-spring:
-  application:
-    name: DEFAULT=CONFG
+
 eureka:
     client:
       registerWithEureka: true
