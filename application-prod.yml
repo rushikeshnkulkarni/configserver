@@ -1,1 +1,9 @@
-
+spring:
+  application:
+    name: Prod server
+eureka:
+    client:
+      registerWithEureka: true
+      fetchRegistry: true
+      serviceUrl:
+        defaultZone: http://localhost:8084/eureka/
